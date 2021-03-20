@@ -15,7 +15,7 @@ public class ClassicalMusic implements Music {
         System.out.println("Doing my initialization");
     }
 
-    // For the  Prototype beans destroy method is not called!
+    // For Prototype beans the destroy method is not called!
     @PreDestroy
     public void doMyDestroy() {
         System.out.println("Doing my destruction");
