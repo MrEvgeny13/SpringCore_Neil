@@ -1,7 +1,6 @@
 package ru.evgeny13.springcourse;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
     public static void main(String[] args) {

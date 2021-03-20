@@ -1,12 +1,9 @@
 package ru.evgeny13.springcourse;
 
-import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 
-@Component
 public class ClassicalMusic implements Music {
 
     @PostConstruct
@@ -14,7 +11,7 @@ public class ClassicalMusic implements Music {
         System.out.println("Doing my initialization");
     }
 
-    // For Prototype beans the destroy method is not called!
+    // Для Prototype бинов не вызывается destroy-метод!
     @PreDestroy
     public void doMyDestroy() {
         System.out.println("Doing my destruction");
